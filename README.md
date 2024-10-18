@@ -23,7 +23,9 @@ and log users who have age greater than 30.
 
 - Tailwind is already installed if you want to use it. If you are familiar with other css kit use that. If you want to not use any of the css kit its okay ( I highly recommend using tailwind )
 - If you want to use SCSS you can configure it but [postcss-nesting](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting) is already installed so it should take care of the nesting for this simple project.
-- Primary color: #FC204D (Already configured for tailwind)
+- Primary color: #FC204D (Already configured for tailwind with name primary)
+- Grey: #1E293B (slate-800 for tailwind)
+- Background color for cards and gutters: #1E293B (slate-950 for tailwind)
 - When finished commit your changes and send us your github repo link
 
 ---
