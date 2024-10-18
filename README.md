@@ -8,3 +8,19 @@ On click send a request to
 https://dummyjson.com/users
 ```
 and log users who have age greater than 30.
+
+## Development
+
+- Fork this github
+- Setup your local environment
+  ```
+  npm install
+  ```
+- Start development server:
+  ```
+  npm run dev
+  ```
+
+- Tailwind is already installed if you want to use it. If you are familiar with other css kit use that. If you want to not use any of the css kit its okay ( I highly recommend using tailwind )
+- If you want to use SCSS you can configure it but [postcss-nesting](https://github.com/csstools/postcss-plugins/tree/main/plugins/postcss-nesting) is already installed so it should take care of the nesting for this simple project.
+- When finished commit your changes and send us your github repo link
