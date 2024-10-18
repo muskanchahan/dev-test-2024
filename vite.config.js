@@ -1,6 +1,8 @@
 // https://vitejs.dev/config/
 
 import postCssNesting from "postcss-nesting";
+import tailwindcss from "tailwindcss";
+import tailwindConfig from "./tailwind.config";
 
 export default {
     server: {
@@ -11,6 +13,7 @@ export default {
         postcss: {
           plugins: [
             postCssNesting(),
+            tailwindcss(tailwindConfig),
           ],
         },
       },
