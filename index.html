@@ -5,34 +5,39 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <title>Dev Test</title>
 </head>
 
-<body>
-  <div class="top">
-    <b>Div.Test</b>
+<body class="bg-black min-h-screen flex flex-col">
+  <div class="top h-12 flex items-center text-white bg-slate-800 mb-1">
+    <b class="ml-2">Div.Test</b>
   </div>
-  <div class="container">
-    <div class="part1">
-      <ul>
+  
+  <div class="container flex w-full flex-grow">
+    <div class="part1 w-1/5 mr-5 mt-2 bg-slate-800 p-5 rounded">
+      <ul class="p-0 list-none text-white">
         <b>
           <li>Events</li>
         </b>
         <li>Calendar</li>
       </ul>
     </div>
-    <div class="part2">
-      <button class="fetchButton" id="fetchButton">+</button>
-      <div id="userList" class="user-list"></div>
-    </div>
+
+    <div class="part2 w-4/5 mt-2 flex flex-wrap gap-5 p-5 justify-center bg-slate-800">
+      <button class="fetchButton fixed bottom-5 right-5 w-12 h-12 text-white rounded-full flex items-center justify-center text-2xl cursor-pointer z-50" style="background-color: #FC204D;">+</button>
+
+      <div id="userList" class="user-list flex flex-wrap gap-5"></div> <!-- Ensure this exists -->
   </div>
-  <script src="script.js"></script>
+  
+  </div>
+
+  <script type="module" src="main.js"></script>
+
 </body>
 
 </html>
