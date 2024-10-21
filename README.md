@@ -55,5 +55,5 @@ For the design reference, please follow this [Figma link](https://www.figma.com/
    cd project-root
    npm install
    npm run dev
-   npm run
+   
 
