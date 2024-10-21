@@ -53,3 +53,7 @@ For the design reference, please follow this [Figma link](https://www.figma.com/
    ```bash
    git clone <your-forked-repo-url>
    cd project-root
+   npm install
+   npm run dev
+   npm run
+
