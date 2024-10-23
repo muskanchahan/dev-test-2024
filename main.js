@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const data = await response.json();
             // Filter users whose age is above 30
             const users = data.users.filter(user => user.age > 30);
+            console.log(users);
             displayUsers(users); // Call the imported function
         } catch (error) {
             console.error('Error fetching users:', error);
